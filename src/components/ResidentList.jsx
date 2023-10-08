@@ -12,7 +12,7 @@ const ResidentList = ({ residents }) => {
   }, [residents]);
 
   return (
-    <section className="bg-[url('backgroundPage.svg')] bg-cover bg-center">
+    <section className="bg-[url('/backgroundPage.svg')] bg-cover bg-center">
       <section className="grid grid-cols-[repeat(auto-fit,_280px)] justify-center gap-6 max-w-[800px] mx-auto py-10">
         {residentsInPage.map((resident) => (
           <ResidentCard key={resident} residentEndPoint={resident} />

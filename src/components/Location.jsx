@@ -13,7 +13,7 @@ const Location = ({ location, setLocation }) => {
   };
 
   return (
-    <section className="bg-[url('backgroundHeader.svg')] bg-cover bg-center h-[400px]">
+    <section className="bg-[url('/backgroundHeader.svg')] bg-cover bg-center h-[400px]">
       <div className="relative flex justify-center">
         <img className="absolute w-[300px]" src="/portal.svg" alt="" />
         <img className="absolute w-[300px]" src="/logo.svg" alt="" />
