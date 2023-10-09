@@ -15,6 +15,7 @@ const Location = ({ location, setLocation }) => {
   return (
     <section className="bg-[url('/backgroundHeader.svg')] bg-cover bg-center h-[400px]">
       <div className="relative flex justify-center">
+      <img className="absolute w-[300px]" src="/ellipse.svg" alt="" />
         <img className="absolute w-[300px]" src="/portal.svg" alt="" />
         <img className="absolute w-[300px]" src="/logo.svg" alt="" />
       </div>
@@ -31,7 +32,7 @@ const Location = ({ location, setLocation }) => {
       </form>
      
       {/* Location Info */}
-      <section className="box-border w-auto border-solid border-2 border-green-300">
+      <section className="box-border border-solid border-2 border-green-300 max-w-[800px] mx-auto">
         <h3 className="grid justify-center text-green-300 text-bold">Wellcome to {location?.name}!</h3>
         <ul className="flex gap-5 justify-center">
           <li>Type: {location?.type} </li>

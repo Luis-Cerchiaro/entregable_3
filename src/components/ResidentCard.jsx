@@ -30,12 +30,12 @@ const ResidentCard = ({ residentEndPoint }) => {
           <span>{resident?.status}</span>
         </div>
       </header>
-      <div className="border-solid border-2 border-green-300  ">
-        <h4 className="text-gray-100 text-2xl p-1 font-bold">
+      <div className="border-solid border-2 border-green-300 ">
+        <h4 className="text-gray-100 text-2xl p-1 font-bold line-clamp-1 ">
           {resident?.name}
         </h4>
         <hr className="h-px my-1 border-teal-900" />
-        <ul className="p-1">
+        <ul className="p-1 line-clamp-1 ">
           <li className="grid grid-cols-2">
             <span className="text-gray-600 text-base font-medium">
               Species
